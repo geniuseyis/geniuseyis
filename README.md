@@ -9,11 +9,14 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/title-01-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/title-01-light.svg"><img src="assets/title-01-dark.svg" alt="01 Hakkımda" width="100%"></picture>
 
-İstanbul'da yaşıyorum. Swift, Flutter ve React Native ile iOS ve Android uygulamaları geliştiriyorum. Üç şeye dikkat ediyorum:
+İstanbul'da yaşıyorum. Swift, Flutter ve React Native ile iOS ve Android uygulamaları geliştiriyorum. Mobilin dışında JavaScript ile web, Python ile Discord botları, C++ ile Arduino projeleri yaptım.
+
+Dört şeye dikkat ediyorum:
 
 - **Veri cihazda kalır.** Mümkün olan her şeyi cihazda işliyor, yerel veriyi AES-256 ile şifreliyorum.
 - **Platformun diliyle konuşur.** Apple HIG, 44 pt dokunma alanları, Dynamic Type ve VoiceOver.
 - **Çalıştığı testle görünür.** Ürün kurallarını arayüzden ayırıyor, birim testleriyle koruyorum.
+- **Yetki istemciye bırakılmaz.** Rol ve erişim kurallarını sunucuda denetliyor, saldırı senaryolarıyla test ediyorum.
 
 <br>
 
@@ -68,7 +71,7 @@ Gelir, gider, bütçe ve birikim hedeflerini tek yerde toplayan, verileri cihazd
 
 Deprem ve sel gibi afetlerde afetzedeyi, gönüllüyü ve koordinatörü aynı gerçek zamanlı platformda buluşturan mobil uygulama. Rol ve onay sunucuda denetleniyor, yapay zeka anahtarları uygulamaya girmiyor.
 
-**22 güvenlik kuralı testi · 3 rol · sunucu tarafı yetki ve kota**
+**22 güvenlik kuralı testi · 3 rol · sunucu tarafı yetki kuralları**
 <br><sub>React Native · Expo SDK 54 · TypeScript · Firestore · Cloud Functions · Sırada cihaz testi ve mağazalar</sub>
 
 <a href="https://github.com/geniuseyis/afet-yardim"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-depo-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/btn-depo-light.svg"><img src="assets/btn-depo-dark.svg" alt="Afet Yardım Sistemi deposunu aç" height="46"></picture></a>

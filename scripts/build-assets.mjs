@@ -180,7 +180,7 @@ const PROJECTS = [
     id: 'afet', name: 'Afet Yardım Sistemi', kind: 'iOS ve Android · gerçek zamanlı koordinasyon', repo: 'afet-yardim',
     alt: 'Afet Yardım ekranlarını gösteren üç telefon',
     text: 'Deprem ve sel gibi afetlerde afetzedeyi, gönüllüyü ve koordinatörü aynı gerçek zamanlı platformda buluşturan mobil uygulama. Rol ve onay sunucuda denetleniyor, yapay zeka anahtarları uygulamaya girmiyor.',
-    proof: '22 güvenlik kuralı testi · 3 rol · sunucu tarafı yetki ve kota',
+    proof: '22 güvenlik kuralı testi · 3 rol · sunucu tarafı yetki kuralları',
     tech: 'React Native · Expo SDK 54 · TypeScript · Firestore · Cloud Functions',
     status: 'Sırada cihaz testi ve mağazalar',
   },
@@ -207,11 +207,14 @@ ${button('instagram', 'Instagram', INSTAGRAM)}
 </p>
 
 ${title('01', 'Hakkımda')}
-İstanbul'da yaşıyorum. Swift, Flutter ve React Native ile iOS ve Android uygulamaları geliştiriyorum. Üç şeye dikkat ediyorum:
+İstanbul'da yaşıyorum. Swift, Flutter ve React Native ile iOS ve Android uygulamaları geliştiriyorum. Mobilin dışında JavaScript ile web, Python ile Discord botları, C++ ile Arduino projeleri yaptım.
+
+Dört şeye dikkat ediyorum:
 
 - **Veri cihazda kalır.** Mümkün olan her şeyi cihazda işliyor, yerel veriyi AES-256 ile şifreliyorum.
 - **Platformun diliyle konuşur.** Apple HIG, 44 pt dokunma alanları, Dynamic Type ve VoiceOver.
 - **Çalıştığı testle görünür.** Ürün kurallarını arayüzden ayırıyor, birim testleriyle koruyorum.
+- **Yetki istemciye bırakılmaz.** Rol ve erişim kurallarını sunucuda denetliyor, saldırı senaryolarıyla test ediyorum.
 
 ${title('02', 'Seçili işler')}
 ${PROJECTS.map(projectBlock).join('\n<br>\n\n')}
