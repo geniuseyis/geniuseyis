@@ -9,7 +9,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/title-01-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/title-01-light.svg"><img src="assets/title-01-dark.svg" alt="01 Hakkımda" width="100%"></picture>
 
-   Swift ile IOS, Flutter ve React Native ile Android uygulamaları geliştiriyorum. Mobil uygulama geliştirme dışında HTML, Css, JavaScript ve PHP ile web, Python ile Discord botları, C# ile Arduino projeleri geliştirdim.
+&nbsp;&nbsp;&nbsp;&nbsp;Swift ile IOS, Flutter ve React Native ile Android uygulamaları geliştiriyorum. Mobil uygulama geliştirme dışında HTML, Css, JavaScript ve PHP ile web, Python ile Discord botları, C# ile Arduino projeleri geliştirdim.
 
 Dört şeye dikkat ediyorum:
 
