@@ -176,6 +176,14 @@ const PROJECTS = [
     tech: 'Flutter · Riverpod · Firebase · Hive · ML Kit',
     status: 'Sırada cihaz testi ve mağazalar',
   },
+  {
+    id: 'afet', name: 'Afet Yardım Sistemi', kind: 'iOS ve Android · gerçek zamanlı koordinasyon', repo: 'afet-yardim',
+    alt: 'Afet Yardım ekranlarını gösteren üç telefon',
+    text: 'Deprem ve sel gibi afetlerde afetzedeyi, gönüllüyü ve koordinatörü aynı gerçek zamanlı platformda buluşturan mobil uygulama. Rol ve onay sunucuda denetleniyor, yapay zeka anahtarları uygulamaya girmiyor.',
+    proof: '22 güvenlik kuralı testi · 3 rol · sunucu tarafı yetki ve kota',
+    tech: 'React Native · Expo SDK 54 · TypeScript · Firestore · Cloud Functions',
+    status: 'Sırada cihaz testi ve mağazalar',
+  },
 ]
 
 const projectBlock = (p) => `<a href="https://github.com/geniuseyis/${p.repo}"><img src="assets/${p.id}.jpg" alt="${p.alt}" width="100%"></a>
@@ -207,14 +215,6 @@ ${title('01', 'Hakkımda')}
 
 ${title('02', 'Seçili işler')}
 ${PROJECTS.map(projectBlock).join('\n<br>\n\n')}
-<br>
-
-### Afet Yardım Sistemi
-<sub>iOS ve Android · gerçek zamanlı koordinasyon · kaynak kodu özel</sub>
-
-Deprem ve sel gibi afetlerde afetzedeyi, gönüllüyü ve koordinatörü aynı gerçek zamanlı platformda buluşturan mobil uygulama.
-<br><sub>React Native · Expo SDK 54 · TypeScript · Firestore · Cloud Functions</sub>
-
 ${title('03', 'Araç kutusu')}
 ${pic('toolkit', 'Diller: Swift, Dart, TypeScript, Java, C#, SQL. Mobil: SwiftUI, Flutter, React Native, Expo, Riverpod, Skia, AVFoundation, StoreKit 2. Sunucu ve veri: Firebase, Cloud Functions, Firestore, SwiftData, Hive, MMKV, Spring Boot, SQL Server. Test ve araçlar: XCTest, flutter_test, Vitest, GitHub Actions, EAS Build, XcodeGen, Git.')}
 

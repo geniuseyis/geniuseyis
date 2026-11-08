@@ -61,11 +61,17 @@ Gelir, gider, bütçe ve birikim hedeflerini tek yerde toplayan, verileri cihazd
 
 <br>
 
-### Afet Yardım Sistemi
-<sub>iOS ve Android · gerçek zamanlı koordinasyon · kaynak kodu özel</sub>
+<a href="https://github.com/geniuseyis/afet-yardim"><img src="assets/afet.jpg" alt="Afet Yardım ekranlarını gösteren üç telefon" width="100%"></a>
 
-Deprem ve sel gibi afetlerde afetzedeyi, gönüllüyü ve koordinatörü aynı gerçek zamanlı platformda buluşturan mobil uygulama.
-<br><sub>React Native · Expo SDK 54 · TypeScript · Firestore · Cloud Functions</sub>
+### Afet Yardım Sistemi
+<sub>iOS ve Android · gerçek zamanlı koordinasyon</sub>
+
+Deprem ve sel gibi afetlerde afetzedeyi, gönüllüyü ve koordinatörü aynı gerçek zamanlı platformda buluşturan mobil uygulama. Rol ve onay sunucuda denetleniyor, yapay zeka anahtarları uygulamaya girmiyor.
+
+**22 güvenlik kuralı testi · 3 rol · sunucu tarafı yetki ve kota**
+<br><sub>React Native · Expo SDK 54 · TypeScript · Firestore · Cloud Functions · Sırada cihaz testi ve mağazalar</sub>
+
+<a href="https://github.com/geniuseyis/afet-yardim"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-depo-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/btn-depo-light.svg"><img src="assets/btn-depo-dark.svg" alt="Afet Yardım Sistemi deposunu aç" height="46"></picture></a>
 
 <br>
 
