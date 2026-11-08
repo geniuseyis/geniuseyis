@@ -114,7 +114,7 @@ for (const button of BUTTONS) {
 
 // arac kutusu
 const TOOLKIT = [
-  ['Diller', ['Swift', 'Dart', 'TypeScript', 'Java', 'C#', 'SQL']],
+  ['Diller', ['Swift', 'Dart', 'JavaScript', 'TypeScript', 'Java', 'Python', 'C#', 'C++', 'SQL']],
   ['Mobil', ['SwiftUI', 'Flutter', 'React Native', 'Expo', 'Riverpod', 'Skia', 'AVFoundation', 'StoreKit 2']],
   ['Sunucu ve veri', ['Firebase', 'Cloud Functions', 'Firestore', 'SwiftData', 'Hive', 'MMKV', 'Spring Boot', 'SQL Server']],
   ['Test ve araçlar', ['XCTest', 'flutter_test', 'Vitest', 'GitHub Actions', 'EAS Build', 'XcodeGen', 'Git']],
@@ -216,7 +216,7 @@ ${title('01', 'Hakkımda')}
 ${title('02', 'Seçili işler')}
 ${PROJECTS.map(projectBlock).join('\n<br>\n\n')}
 ${title('03', 'Araç kutusu')}
-${pic('toolkit', 'Diller: Swift, Dart, TypeScript, Java, C#, SQL. Mobil: SwiftUI, Flutter, React Native, Expo, Riverpod, Skia, AVFoundation, StoreKit 2. Sunucu ve veri: Firebase, Cloud Functions, Firestore, SwiftData, Hive, MMKV, Spring Boot, SQL Server. Test ve araçlar: XCTest, flutter_test, Vitest, GitHub Actions, EAS Build, XcodeGen, Git.')}
+${pic('toolkit', 'Diller: Swift, Dart, JavaScript, TypeScript, Java, Python, C#, C++, SQL. Mobil: SwiftUI, Flutter, React Native, Expo, Riverpod, Skia, AVFoundation, StoreKit 2. Sunucu ve veri: Firebase, Cloud Functions, Firestore, SwiftData, Hive, MMKV, Spring Boot, SQL Server. Test ve araçlar: XCTest, flutter_test, Vitest, GitHub Actions, EAS Build, XcodeGen, Git.')}
 
 ${title('04', 'Commit günlüğü')}
 <picture><source media="(prefers-color-scheme: dark)" srcset="${raw}/github-snake-dark.svg"><source media="(prefers-color-scheme: light)" srcset="${raw}/github-snake.svg"><img src="${raw}/github-snake-dark.svg" alt="GitHub katkı grafiğini yiyen yılan animasyonu" width="100%"></picture>
