@@ -27,7 +27,7 @@ Dört şeye dikkat ediyorum:
 ### Ringify
 <sub>iOS · ses stüdyosu</sub>
 
-Bir videodan, şarkıdan ya da kendi sesinden 1–29 saniyelik iPhone zil sesleri hazırlayan, çevrimdışı çalışan bir ses stüdyosu. Tüm ses işleme cihazda yapılıyor; hesap, analitik ya da izleme yok.
+&nbsp;&nbsp;&nbsp;&nbsp;Bir videodan, şarkıdan ya da kendi sesinden 1–29 saniyelik iPhone zil sesleri hazırlayan, çevrimdışı çalışan bir ses stüdyosu. Tüm ses işleme cihazda yapılıyor; hesap, analitik ya da izleme yok.
 
 **136 birim testi ve uçtan uca arayüz akışı · Swift 6 tam katı eşzamanlılık**
 <br><sub>Swift 6 · SwiftUI · AVFoundation · SwiftData · StoreKit 2 · Sırada cihaz testi ve App Store</sub>
@@ -41,7 +41,7 @@ Bir videodan, şarkıdan ya da kendi sesinden 1–29 saniyelik iPhone zil sesler
 ### Plumbline
 <sub>iOS ve Android · fizik oyunu</sub>
 
-Vinçte sallanan katı doğru anda bırakıp kuleni yükselttiğin, gerçek fizikle çalışan bir kule oyunu. Motor deterministik: aynı seed ve aynı bırakma anları hep aynı skoru veriyor, kayıtlar baştan oynatılıp doğrulanabiliyor.
+&nbsp;&nbsp;&nbsp;&nbsp;Vinçte sallanan katı doğru anda bırakıp kuleni yükselttiğin, gerçek fizikle çalışan bir kule oyunu. Motor deterministik: aynı seed ve aynı bırakma anları hep aynı skoru veriyor, kayıtlar baştan oynatılıp doğrulanabiliyor.
 
 **120 Hz sabit adımlı fizik · AES-256 şifreli kayıtlar · hesap ve sunucu yok**
 <br><sub>React Native · Expo SDK 58 · TypeScript · Skia · Reanimated · Sırada mağaza entegrasyonu</sub>
@@ -55,7 +55,7 @@ Vinçte sallanan katı doğru anda bırakıp kuleni yükselttiğin, gerçek fizi
 ### Finansım
 <sub>iOS ve Android · kişisel finans</sub>
 
-Gelir, gider, bütçe ve birikim hedeflerini tek yerde toplayan, verileri cihazda şifreleyen kişisel finans uygulaması. Makbuzları cihaz üzerinde okuyor, TCMB kurlarını çekiyor.
+&nbsp;&nbsp;&nbsp;&nbsp;Gelir, gider, bütçe ve birikim hedeflerini tek yerde toplayan, verileri cihazda şifreleyen kişisel finans uygulaması. Makbuzları cihaz üzerinde okuyor, TCMB kurlarını çekiyor.
 
 **113 birim testi, her push’ta CI · 25+ ekran · Clean Architecture**
 <br><sub>Flutter · Riverpod · Firebase · Hive · ML Kit · Sırada cihaz testi ve mağazalar</sub>
@@ -69,7 +69,7 @@ Gelir, gider, bütçe ve birikim hedeflerini tek yerde toplayan, verileri cihazd
 ### Afet Yardım Sistemi
 <sub>iOS ve Android · gerçek zamanlı koordinasyon</sub>
 
-Deprem ve sel gibi afetlerde afetzedeyi, gönüllüyü ve koordinatörü aynı gerçek zamanlı platformda buluşturan mobil uygulama. Rol ve onay sunucuda denetleniyor, yapay zeka anahtarları uygulamaya girmiyor.
+&nbsp;&nbsp;&nbsp;&nbsp;Deprem ve sel gibi afetlerde afetzedeyi, gönüllüyü ve koordinatörü aynı gerçek zamanlı platformda buluşturan mobil uygulama. Rol ve onay sunucuda denetleniyor, yapay zeka anahtarları uygulamaya girmiyor.
 
 **22 güvenlik kuralı testi · 3 rol · sunucu tarafı yetki kuralları**
 <br><sub>React Native · Expo SDK 54 · TypeScript · Firestore · Cloud Functions · Sırada cihaz testi ve mağazalar</sub>
