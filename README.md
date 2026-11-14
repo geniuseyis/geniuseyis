@@ -78,6 +78,20 @@ Dört şeye dikkat ediyorum:
 
 <br>
 
+<a href="https://github.com/geniuseyis/sysfly"><img src="assets/sysfly.jpg" alt="sysfly ekranlarını gösteren üç telefon" width="100%"></a>
+
+### sysfly
+<sub>iOS ve Android · uçak bileti rezervasyonu</sub>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Uçuş aramadan biniş kartına kadar bütün yolculuğu tek akışta toplayan uçak bileti uygulaması. Yay fizikli navigasyon, gerçek kırılmalı cam efekti, etkileşimli koltuk haritası ve THY tarzı yolcu formu var; havalimanları gerçek veriden geliyor.
+
+**233 ülkeden 4.007 gerçek havalimanı · 7 dil · referanstan kare kare ölçülen animasyonlar**
+<br><sub>Flutter · Dart · Riverpod · go_router · CustomPainter · Sırada iOS cihaz testi</sub>
+
+<a href="https://github.com/geniuseyis/sysfly"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-depo-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/btn-depo-light.svg"><img src="assets/btn-depo-dark.svg" alt="sysfly deposunu aç" height="46"></picture></a>
+
+<br>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/title-03-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/title-03-light.svg"><img src="assets/title-03-dark.svg" alt="03 Araç kutusu" width="100%"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/toolkit-light.svg"><img src="assets/toolkit-dark.svg" alt="Diller: Swift, Dart, JavaScript, TypeScript, Java, Python, C#, C++, SQL. Mobil: SwiftUI, Flutter, React Native, Expo, Riverpod, Skia, AVFoundation, StoreKit 2. Sunucu ve veri: Firebase, Cloud Functions, Firestore, SwiftData, Hive, MMKV, Spring Boot, SQL Server. Test ve araçlar: XCTest, flutter_test, Vitest, GitHub Actions, EAS Build, XcodeGen, Git." width="100%"></picture>

@@ -184,6 +184,14 @@ const PROJECTS = [
     tech: 'React Native · Expo SDK 54 · TypeScript · Firestore · Cloud Functions',
     status: 'Sırada cihaz testi ve mağazalar',
   },
+  {
+    id: 'sysfly', name: 'sysfly', kind: 'iOS ve Android · uçak bileti rezervasyonu', repo: 'sysfly',
+    alt: 'sysfly ekranlarını gösteren üç telefon',
+    text: 'Uçuş aramadan biniş kartına kadar bütün yolculuğu tek akışta toplayan uçak bileti uygulaması. Yay fizikli navigasyon, gerçek kırılmalı cam efekti, etkileşimli koltuk haritası ve THY tarzı yolcu formu var; havalimanları gerçek veriden geliyor.',
+    proof: '233 ülkeden 4.007 gerçek havalimanı · 7 dil · referanstan kare kare ölçülen animasyonlar',
+    tech: 'Flutter · Dart · Riverpod · go_router · CustomPainter',
+    status: 'Sırada iOS cihaz testi',
+  },
 ]
 
 const projectBlock = (p) => `<a href="https://github.com/geniuseyis/${p.repo}"><img src="assets/${p.id}.jpg" alt="${p.alt}" width="100%"></a>
@@ -191,7 +199,7 @@ const projectBlock = (p) => `<a href="https://github.com/geniuseyis/${p.repo}"><
 ### ${p.name}
 <sub>${p.kind}</sub>
 
-${p.text}
+&nbsp;&nbsp;&nbsp;&nbsp;${p.text}
 
 **${p.proof}**
 <br><sub>${p.tech} · ${p.status}</sub>
@@ -207,7 +215,7 @@ ${button('instagram', 'Instagram', INSTAGRAM)}
 </p>
 
 ${title('01', 'Hakkımda')}
-İstanbul'da yaşıyorum. Swift, Flutter ve React Native ile iOS ve Android uygulamaları geliştiriyorum. Mobilin dışında JavaScript ile web, Python ile Discord botları, C++ ile Arduino projeleri yaptım.
+&nbsp;&nbsp;&nbsp;&nbsp;Swift ile IOS, Flutter ve React Native ile Android uygulamaları geliştiriyorum. Mobil uygulama geliştirme dışında HTML, Css, JavaScript ve PHP ile web, Python ile Discord botları, C# ile Arduino projeleri geliştirdim.
 
 Dört şeye dikkat ediyorum:
 
